@@ -1,0 +1,56 @@
+26/10/01 14:13:54 WARN Utils: Your hostname, ladybug resolves to a loopback address: 127.0.1.1; using 10.255.255.254 instead (on interface lo)
+26/10/01 14:13:54 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+26/10/01 14:13:56 INFO SparkContext: Running Spark version 3.5.1
+26/10/01 14:13:56 INFO SparkContext: OS info Linux, 6.6.87.2-microsoft-standard-WSL2, amd64
+26/10/01 14:13:56 INFO SparkContext: Java version 1.8.0_504
+26/10/01 14:13:57 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+26/10/01 14:13:57 INFO ResourceUtils: ==============================================================
+26/10/01 14:13:57 INFO ResourceUtils: No custom resources configured for spark.driver.
+26/10/01 14:13:57 INFO ResourceUtils: ==============================================================
+26/10/01 14:13:57 INFO SparkContext: Submitted application: SpotifyBDA
+26/10/01 14:13:57 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+26/10/01 14:13:57 INFO ResourceProfile: Limiting resource is cpu
+26/10/01 14:13:57 INFO ResourceProfileManager: Added ResourceProfile id: 0
+26/10/01 14:13:57 INFO SecurityManager: Changing view acls to: sejal
+26/10/01 14:13:57 INFO SecurityManager: Changing modify acls to: sejal
+26/10/01 14:13:57 INFO SecurityManager: Changing view acls groups to: 
+26/10/01 14:13:57 INFO SecurityManager: Changing modify acls groups to: 
+26/10/01 14:13:57 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: sejal; groups with view permissions: EMPTY; users with modify permissions: sejal; groups with modify permissions: EMPTY
+26/10/01 14:13:57 INFO Utils: Successfully started service 'sparkDriver' on port 33301.
+26/10/01 14:13:57 INFO SparkEnv: Registering MapOutputTracker
+26/10/01 14:13:58 INFO SparkEnv: Registering BlockManagerMaster
+26/10/01 14:13:58 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+26/10/01 14:13:58 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+26/10/01 14:13:58 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+26/10/01 14:13:58 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-9c132259-fed9-4878-b4c4-5800527b685a
+26/10/01 14:13:58 INFO MemoryStore: MemoryStore started with capacity 1458.6 MiB
+26/10/01 14:13:58 INFO SparkEnv: Registering OutputCommitCoordinator
+26/10/01 14:13:58 INFO JettyUtils: Start Jetty 0.0.0.0:4040 for SparkUI
+26/10/01 14:13:58 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+26/10/01 14:13:58 INFO Executor: Starting executor ID driver on host 10.255.255.254
+26/10/01 14:13:58 INFO Executor: OS info Linux, 6.6.87.2-microsoft-standard-WSL2, amd64
+26/10/01 14:13:58 INFO Executor: Java version 1.8.0_504
+26/10/01 14:13:58 INFO Executor: Starting executor with user classpath (userClassPathFirst = false): ''
+26/10/01 14:13:58 INFO Executor: Created or updated repl class loader org.apache.spark.util.MutableURLClassLoader@bcf0022 for default.
+26/10/01 14:13:58 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 33175.
+26/10/01 14:13:58 INFO NettyBlockTransferService: Server created on 10.255.255.254:33175
+26/10/01 14:13:58 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+26/10/01 14:13:58 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 10.255.255.254, 33175, None)
+26/10/01 14:13:58 INFO BlockManagerMasterEndpoint: Registering block manager 10.255.255.254:33175 with 1458.6 MiB RAM, BlockManagerId(driver, 10.255.255.254, 33175, None)
+26/10/01 14:13:58 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 10.255.255.254, 33175, None)
+26/10/01 14:13:58 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 10.255.255.254, 33175, None)
+Rows: 2110316
+saved 01_null_counts
+saved 02_top_artists
+saved 03_song_reach
+saved 04_country_profile
+saved 05_monthly_global_trend
+saved 06_popularity_correlation
+k=3 silhouette=0.2611
+k=4 silhouette=0.1886
+k=5 silhouette=0.2539
+k=6 silhouette=0.1988
+k=7 silhouette=0.2371
+Best k: 3
+saved 07_cluster_profiles
+saved 07_song_clusters

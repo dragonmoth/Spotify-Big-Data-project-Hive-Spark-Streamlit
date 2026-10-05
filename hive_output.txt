@@ -1,0 +1,687 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/sejal/bigdata/apache-hive-3.1.3-bin/lib/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/sejal/bigdata/hadoop-3.3.6/share/hadoop/common/lib/slf4j-reload4j-1.7.36.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+Hive Session ID = 685ac2de-02a8-4207-a935-5f73682ccf32
+
+Logging initialized using configuration in jar:file:/home/sejal/bigdata/apache-hive-3.1.3-bin/lib/hive-common-3.1.3.jar!/hive-log4j2.properties Async: true
+Hive Session ID = 50a30562-d68f-4ef7-9f88-9c6c112b74d3
+OK
+Time taken: 0.737 seconds
+OK
+Time taken: 0.025 seconds
+OK
+Time taken: 0.75 seconds
+OK
+Time taken: 0.261 seconds
+Query ID = sejal_20261001075313_55ed88de-5f98-422f-a8e5-4d8633b4909f
+Total jobs = 1
+Launching Job 1 out of 1
+Number of reduce tasks determined at compile time: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Job running in-process (local Hadoop)
+2026-10-01 07:53:16,412 Stage-1 map = 0%,  reduce = 0%
+2026-10-01 07:53:19,435 Stage-1 map = 100%,  reduce = 0%
+2026-10-01 07:53:33,824 Stage-1 map = 100%,  reduce = 100%
+Ended Job = job_local408281564_0001
+MapReduce Jobs Launched: 
+Stage-Stage-1:  HDFS Read: 2574594912 HDFS Write: 0 SUCCESS
+Total MapReduce CPU Time Spent: 0 msec
+OK
+2110316
+Time taken: 19.986 seconds, Fetched: 1 row(s)
+OK
+Time taken: 0.042 seconds
+Query ID = sejal_20261001075333_4a6cbdf9-8238-4e38-8ca5-862e6eda803d
+Total jobs = 1
+Launching Job 1 out of 1
+Number of reduce tasks is set to 0 since there's no reduce operator
+Job running in-process (local Hadoop)
+2026-10-01 07:53:35,656 Stage-1 map = 0%,  reduce = 0%
+2026-10-01 07:53:43,667 Stage-1 map = 100%,  reduce = 0%
+Ended Job = job_local437138780_0002
+Stage-4 is filtered out by condition resolver.
+Stage-3 is selected by condition resolver.
+Stage-5 is filtered out by condition resolver.
+Job running in-process (local Hadoop)
+2026-10-01 07:54:11,358 Stage-3 map = 100%,  reduce = 0%
+Ended Job = job_local1803957637_0003
+Moving data to directory hdfs://localhost:9000/user/hive/warehouse/spotify_bda.db/spotify_clean
+MapReduce Jobs Launched: 
+Stage-Stage-1:  HDFS Read: 5562570216 HDFS Write: 282689390 SUCCESS
+Stage-Stage-3:  HDFS Read: 1063959058 HDFS Write: 135493447 SUCCESS
+Total MapReduce CPU Time Spent: 0 msec
+OK
+Time taken: 38.008 seconds
+OK
+2110316
+Time taken: 0.126 seconds, Fetched: 1 row(s)
+Query ID = sejal_20261001075412_b4f50265-0bdf-4c52-ad95-59277c2e7339
+Total jobs = 1
+Launching Job 1 out of 1
+Number of reduce tasks determined at compile time: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Job running in-process (local Hadoop)
+2026-10-01 07:54:13,593 Stage-1 map = 0%,  reduce = 0%
+2026-10-01 07:54:16,600 Stage-1 map = 100%,  reduce = 100%
+Ended Job = job_local2090189059_0004
+MapReduce Jobs Launched: 
+Stage-Stage-1:  HDFS Read: 2135231746 HDFS Write: 270986894 SUCCESS
+Total MapReduce CPU Time Spent: 0 msec
+OK
+2023-10-18	2025-06-11	73	24983
+Time taken: 4.508 seconds, Fetched: 1 row(s)
+Query ID = sejal_20261001075416_3c3eec44-defc-4af5-87cd-906d3a8ce605
+Total jobs = 2
+Launching Job 1 out of 2
+Number of reduce tasks not specified. Estimated from input data size: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Job running in-process (local Hadoop)
+2026-10-01 07:54:15,376 Stage-1 map = 0%,  reduce = 0%
+2026-10-01 07:54:19,930 Stage-1 map = 100%,  reduce = 100%
+Ended Job = job_local1783930986_0005
+Launching Job 2 out of 2
+Number of reduce tasks determined at compile time: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Job running in-process (local Hadoop)
+2026-10-01 07:54:21,126 Stage-2 map = 100%,  reduce = 100%
+Ended Job = job_local1448558432_0006
+MapReduce Jobs Launched: 
+Stage-Stage-1:  HDFS Read: 2155114000 HDFS Write: 270986894 SUCCESS
+Stage-Stage-2:  HDFS Read: 2155114000 HDFS Write: 270986894 SUCCESS
+Total MapReduce CPU Time Spent: 0 msec
+OK
+Die With A Smile	Lady Gaga, Bruno Mars	69	11903
+APT.	ROSÉ, Bruno Mars	67	8176
+Die With A Smile	Lady Gaga, Bruno Mars	67	4180
+APT.	ROSÉ, Bruno Mars	67	2338
+Not Like Us	Kendrick Lamar	66	7042
+Fortnight (feat. Post Malone)	Taylor Swift, Post Malone	64	2609
+All I Want for Christmas Is You	Mariah Carey	63	2840
+BIRDS OF A FEATHER	Billie Eilish	62	16301
+Espresso	Sabrina Carpenter	61	7605
+yes, and?	Ariana Grande	61	1531
+LUNCH	Billie Eilish	60	2722
+Style (Taylor's Version)	Taylor Swift	60	245
+we can't be friends (wait for your love)	Ariana Grande	59	4684
+Last Christmas	Wham!	59	820
+i like the way you kiss me	Artemas	58	4383
+Last Christmas - Single Version	Wham!	58	2019
+Please Please Please	Sabrina Carpenter	57	4102
+Jingle Bell Rock	Bobby Helms	57	1771
+Rockin' Around The Christmas Tree	Brenda Lee	56	2020
+Beautiful Things	Benson Boone	54	2742
+Time taken: 4.517 seconds, Fetched: 20 row(s)
+Query ID = sejal_20261001075421_40e67f12-5afd-4606-93e8-52f45df7cdff
+Total jobs = 2
+Launching Job 1 out of 2
+Number of reduce tasks not specified. Estimated from input data size: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Job running in-process (local Hadoop)
+2026-10-01 07:54:22,528 Stage-1 map = 0%,  reduce = 0%
+2026-10-01 07:54:23,535 Stage-1 map = 100%,  reduce = 100%
+Ended Job = job_local2130718764_0007
+Launching Job 2 out of 2
+Number of reduce tasks determined at compile time: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Job running in-process (local Hadoop)
+2026-10-01 07:54:24,728 Stage-2 map = 100%,  reduce = 100%
+Ended Job = job_local215722577_0008
+MapReduce Jobs Launched: 
+Stage-Stage-1:  HDFS Read: 2175067872 HDFS Write: 270986894 SUCCESS
+Stage-Stage-2:  HDFS Read: 2175067872 HDFS Write: 270986894 SUCCESS
+Total MapReduce CPU Time Spent: 0 msec
+OK
+I Wanna Be Yours	Arctic Monkeys	541	31.41	11
+Lose Control	Teddy Swims	493	21.6	5
+One Of The Girls (with JENNIE, Lily Rose Depp)	The Weeknd, JENNIE, Lily-Rose Depp	488	25.58	2
+Beautiful Things	Benson Boone	400	15.13	1
+Good Luck, Babe!	Chappell Roan	394	19.86	5
+Sweater Weather	The Neighbourhood	383	35.63	14
+BIRDS OF A FEATHER	Billie Eilish	372	3.67	1
+Cruel Summer	Taylor Swift	362	18.2	2
+Si Antes Te Hubiera Conocido	KAROL G	328	22.69	4
+WILDFLOWER	Billie Eilish	322	19.57	8
+Who	Jimin	308	9.63	1
+The Night We Met	Lord Huron	308	33.52	15
+LUNA	Feid, ATL Jacob	292	27.5	7
+we can't be friends (wait for your love)	Ariana Grande	277	24.03	1
+End of Beginning	Djo	272	21.42	1
+Not Like Us	Kendrick Lamar	263	15.74	1
+Espresso	Sabrina Carpenter	251	14.49	3
+FE!N (feat. Playboi Carti)	Travis Scott, Playboi Carti	244	35.52	16
+Stick Season	Noah Kahan	244	26.61	6
+Seven (feat. Latto) (Explicit Ver.)	Jung Kook, Latto	241	29.18	1
+Time taken: 3.593 seconds, Fetched: 20 row(s)
+Query ID = sejal_20261001075424_4328d908-18e1-4f6e-ab78-5d1743afe251
+Total jobs = 2
+Launching Job 1 out of 2
+Number of reduce tasks not specified. Estimated from input data size: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Job running in-process (local Hadoop)
+2026-10-01 07:54:26,065 Stage-1 map = 100%,  reduce = 100%
+Ended Job = job_local1129165042_0009
+Launching Job 2 out of 2
+Number of reduce tasks determined at compile time: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Job running in-process (local Hadoop)
+2026-10-01 07:54:27,256 Stage-2 map = 100%,  reduce = 100%
+Ended Job = job_local421995717_0010
+MapReduce Jobs Launched: 
+Stage-Stage-1:  HDFS Read: 2175626034 HDFS Write: 270986894 SUCCESS
+Stage-Stage-2:  HDFS Read: 2175626034 HDFS Write: 270986894 SUCCESS
+Total MapReduce CPU Time Spent: 0 msec
+OK
+GR	68.5
+CL	64.45
+DO	60.76
+MX	57.27
+SK	56.4
+FR	54.06
+BY	52.92
+SV	51.6
+GT	51.53
+CZ	50.67
+VE	50.23
+PA	50.21
+CO	50.11
+HU	49.57
+EC	48.87
+HN	48.5
+CR	47.72
+US	45.6
+PE	43.66
+IT	43.66
+PL	43.02
+NI	42.89
+MA	41.9
+ES	41.58
+LV	41.27
+CA	39.21
+GLOBAL	38.44
+PY	38.09
+DK	37.64
+BO	37.05
+LU	35.86
+DE	35.38
+NO	33.3
+AE	32.97
+AU	32.79
+EE	32.74
+AT	32.06
+NZ	31.6
+CH	31.4
+GB	31.22
+PT	30.34
+RO	30.34
+AR	30.23
+NG	29.79
+SE	28.59
+UY	28.17
+BE	27.24
+UA	26.32
+SA	26.01
+IE	25.59
+BR	24.81
+LT	24.44
+KZ	23.62
+BG	23.51
+SG	22.62
+FI	21.21
+NL	20.21
+IS	20.04
+PH	18.95
+ZA	17.79
+TR	16.6
+MY	15.96
+TH	10.18
+VN	9.65
+KR	9.17
+PK	8.86
+TW	8.73
+HK	8.18
+IL	7.45
+EG	5.41
+ID	2.74
+IN	2.2
+JP	2.19
+Time taken: 2.519 seconds, Fetched: 73 row(s)
+Query ID = sejal_20261001075427_1369249a-4334-4425-9291-cb7ee026ca71
+Total jobs = 2
+Launching Job 1 out of 2
+Number of reduce tasks not specified. Estimated from input data size: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Job running in-process (local Hadoop)
+2026-10-01 07:54:28,636 Stage-1 map = 100%,  reduce = 100%
+Ended Job = job_local1918338742_0011
+Launching Job 2 out of 2
+Number of reduce tasks determined at compile time: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Job running in-process (local Hadoop)
+2026-10-01 07:54:29,840 Stage-2 map = 100%,  reduce = 100%
+Ended Job = job_local744348566_0012
+MapReduce Jobs Launched: 
+Stage-Stage-1:  HDFS Read: 2223355386 HDFS Write: 270986894 SUCCESS
+Stage-Stage-2:  HDFS Read: 2223355386 HDFS Write: 270986894 SUCCESS
+Total MapReduce CPU Time Spent: 0 msec
+OK
+MX	0.73	0.691	0.674	122.7	0.295
+UY	0.703	0.683	0.659	115.7	0.239
+BR	0.68	0.71	0.653	127.3	0.405
+GT	0.727	0.685	0.637	121.6	0.282
+JP	0.61	0.775	0.637	129.1	0.114
+AR	0.696	0.682	0.634	117.3	0.243
+BG	0.701	0.774	0.633	135.4	0.133
+NG	0.722	0.678	0.621	116.1	0.315
+BO	0.704	0.692	0.621	121.9	0.261
+EG	0.7	0.683	0.617	119.0	0.356
+CL	0.733	0.677	0.611	112.4	0.233
+RO	0.741	0.721	0.608	130.2	0.198
+NI	0.724	0.669	0.605	119.7	0.284
+PY	0.698	0.669	0.604	122.6	0.261
+EC	0.742	0.676	0.601	119.1	0.251
+PE	0.736	0.681	0.601	116.6	0.243
+HN	0.725	0.68	0.595	119.3	0.276
+SV	0.735	0.681	0.594	119.0	0.263
+CO	0.74	0.67	0.592	119.4	0.251
+FI	0.678	0.705	0.585	126.8	0.183
+CR	0.711	0.659	0.574	120.2	0.288
+DO	0.716	0.669	0.574	122.1	0.275
+FR	0.709	0.646	0.573	121.6	0.3
+ES	0.711	0.68	0.562	119.2	0.289
+NL	0.675	0.681	0.562	126.2	0.211
+LT	0.696	0.645	0.557	122.9	0.219
+DK	0.692	0.66	0.552	123.5	0.192
+PA	0.707	0.66	0.547	118.2	0.292
+VE	0.727	0.667	0.546	115.9	0.276
+KR	0.655	0.689	0.546	119.9	0.234
+PT	0.695	0.595	0.542	121.1	0.4
+HU	0.72	0.675	0.541	117.9	0.229
+TR	0.65	0.65	0.54	118.4	0.27
+MA	0.678	0.621	0.54	121.2	0.374
+BY	0.689	0.656	0.538	121.9	0.2
+LU	0.666	0.645	0.533	124.5	0.236
+UA	0.702	0.654	0.533	119.4	0.251
+AT	0.666	0.662	0.53	127.4	0.22
+NZ	0.639	0.623	0.53	125.2	0.231
+NO	0.633	0.634	0.529	122.5	0.256
+DE	0.691	0.665	0.528	126.9	0.198
+BE	0.659	0.651	0.526	125.3	0.259
+ZA	0.721	0.619	0.525	119.7	0.159
+SE	0.626	0.608	0.525	125.2	0.304
+GR	0.715	0.687	0.525	119.8	0.291
+IN	0.624	0.58	0.522	108.3	0.488
+GB	0.623	0.64	0.522	125.5	0.248
+TH	0.622	0.643	0.519	124.4	0.283
+GLOBAL	0.643	0.627	0.518	121.7	0.257
+IS	0.681	0.501	0.518	120.7	0.366
+EE	0.661	0.687	0.516	128.2	0.168
+SG	0.642	0.631	0.513	123.6	0.251
+AU	0.629	0.625	0.511	125.3	0.244
+IE	0.61	0.619	0.511	124.2	0.271
+PL	0.675	0.684	0.509	125.0	0.222
+SA	0.614	0.655	0.509	119.8	0.265
+CH	0.656	0.646	0.507	124.6	0.245
+PH	0.634	0.557	0.506	120.6	0.333
+PK	0.668	0.559	0.506	108.3	0.42
+KZ	0.703	0.597	0.504	116.0	0.339
+CA	0.63	0.611	0.504	124.4	0.262
+IT	0.669	0.686	0.502	119.4	0.225
+LV	0.66	0.646	0.502	123.4	0.21
+AE	0.639	0.625	0.497	122.3	0.232
+TW	0.634	0.621	0.494	125.4	0.304
+US	0.635	0.604	0.494	123.4	0.267
+HK	0.612	0.616	0.491	132.3	0.364
+VN	0.673	0.55	0.487	124.6	0.474
+CZ	0.686	0.672	0.486	128.6	0.224
+SK	0.693	0.669	0.477	127.5	0.218
+IL	0.616	0.541	0.468	124.3	0.436
+MY	0.593	0.571	0.443	123.2	0.368
+ID	0.527	0.509	0.374	122.0	0.532
+Time taken: 2.57 seconds, Fetched: 73 row(s)
+Query ID = sejal_20261001075429_0645e9d6-4912-4c4b-97ff-cec03de45145
+Total jobs = 2
+Launching Job 1 out of 2
+Number of reduce tasks not specified. Estimated from input data size: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Job running in-process (local Hadoop)
+2026-10-01 07:54:31,202 Stage-1 map = 100%,  reduce = 100%
+Ended Job = job_local1391243371_0013
+Launching Job 2 out of 2
+Number of reduce tasks determined at compile time: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Job running in-process (local Hadoop)
+2026-10-01 07:54:32,374 Stage-2 map = 100%,  reduce = 100%
+Ended Job = job_local537355732_0014
+MapReduce Jobs Launched: 
+Stage-Stage-1:  HDFS Read: 2249463270 HDFS Write: 270986894 SUCCESS
+Stage-Stage-2:  HDFS Read: 2249463270 HDFS Write: 270986894 SUCCESS
+Total MapReduce CPU Time Spent: 0 msec
+OK
+2023-10	0.494	0.648	0.669
+2023-11	0.496	0.627	0.657
+2023-12	0.582	0.604	0.632
+2024-01	0.523	0.656	0.672
+2024-02	0.495	0.653	0.669
+2024-03	0.485	0.632	0.665
+2024-04	0.487	0.63	0.65
+2024-05	0.482	0.616	0.635
+2024-06	0.549	0.634	0.661
+2024-07	0.576	0.65	0.681
+2024-08	0.565	0.65	0.658
+2024-09	0.545	0.665	0.637
+2024-10	0.578	0.649	0.652
+2024-11	0.542	0.649	0.626
+2024-12	0.567	0.58	0.602
+2025-01	0.462	0.556	0.597
+2025-02	0.461	0.594	0.631
+2025-03	0.475	0.618	0.628
+2025-04	0.485	0.609	0.626
+2025-05	0.492	0.614	0.619
+2025-06	0.496	0.614	0.616
+Time taken: 2.525 seconds, Fetched: 21 row(s)
+Query ID = sejal_20261001075432_c7309de4-83fd-42fc-b806-4eafbe7babcc
+Total jobs = 2
+Launching Job 1 out of 2
+Number of reduce tasks not specified. Estimated from input data size: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Job running in-process (local Hadoop)
+2026-10-01 07:54:33,713 Stage-1 map = 0%,  reduce = 0%
+2026-10-01 07:54:36,718 Stage-1 map = 100%,  reduce = 100%
+Ended Job = job_local337743538_0015
+Launching Job 2 out of 2
+Number of reduce tasks determined at compile time: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Job running in-process (local Hadoop)
+2026-10-01 07:54:37,895 Stage-2 map = 100%,  reduce = 100%
+Ended Job = job_local1742363138_0016
+MapReduce Jobs Launched: 
+Stage-Stage-1:  HDFS Read: 2262808738 HDFS Write: 270986894 SUCCESS
+Stage-Stage-2:  HDFS Read: 2262808738 HDFS Write: 270986894 SUCCESS
+Total MapReduce CPU Time Spent: 0 msec
+OK
+Bad Bunny	51567	50
+Billie Eilish	32654	17
+KAROL G	30757	33
+Feid	29643	42
+Sabrina Carpenter	29045	24
+Taylor Swift	21640	100
+The Weeknd	21599	34
+Jimin	20391	24
+Lady Gaga	19695	36
+Kendrick Lamar	17506	33
+Benson Boone	16759	9
+Jung Kook	16640	20
+Teddy Swims	15614	6
+Tate McRae	13683	25
+Myke Towers	13584	33
+ROSÉ	13189	23
+Grupo Frontera	12582	13
+Rauw Alejandro	11720	32
+Ariana Grande	11280	37
+V	10988	20
+Time taken: 5.513 seconds, Fetched: 20 row(s)
+Query ID = sejal_20261001075437_d69aa7b6-df4f-413d-b1a4-22fa0f78d6d2
+Total jobs = 2
+Launching Job 1 out of 2
+Number of reduce tasks not specified. Estimated from input data size: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Job running in-process (local Hadoop)
+2026-10-01 07:54:39,188 Stage-1 map = 0%,  reduce = 0%
+2026-10-01 07:54:43,445 Stage-1 map = 100%,  reduce = 100%
+Ended Job = job_local1842725642_0017
+Launching Job 2 out of 2
+Number of reduce tasks determined at compile time: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Job running in-process (local Hadoop)
+2026-10-01 07:54:44,645 Stage-2 map = 100%,  reduce = 100%
+Ended Job = job_local403402927_0018
+MapReduce Jobs Launched: 
+Stage-Stage-1:  HDFS Read: 2268929392 HDFS Write: 270986894 SUCCESS
+Stage-Stage-2:  HDFS Read: 2268929392 HDFS Write: 270986894 SUCCESS
+Total MapReduce CPU Time Spent: 0 msec
+OK
+Bad Bunny	66191
+Feid	50407
+Billie Eilish	35287
+KAROL G	30829
+Bruno Mars	29338
+Sabrina Carpenter	29045
+The Weeknd	22466
+Peso Pluma	21788
+Taylor Swift	21696
+Playboi Carti	20637
+Jimin	20482
+Kendrick Lamar	19998
+Lady Gaga	19696
+Grupo Frontera	17562
+Rauw Alejandro	17082
+Jung Kook	17069
+Benson Boone	16759
+Myke Towers	16701
+Teddy Swims	15614
+Fuerza Regida	15597
+Time taken: 6.742 seconds, Fetched: 20 row(s)
+Query ID = sejal_20261001075444_d2d1b4f2-9d71-4c7f-8ee2-ee7816a07362
+Total jobs = 2
+Launching Job 1 out of 2
+Number of reduce tasks not specified. Estimated from input data size: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Job running in-process (local Hadoop)
+2026-10-01 07:54:45,938 Stage-1 map = 100%,  reduce = 100%
+Ended Job = job_local2090064001_0019
+Launching Job 2 out of 2
+Number of reduce tasks determined at compile time: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Job running in-process (local Hadoop)
+2026-10-01 07:54:47,109 Stage-2 map = 100%,  reduce = 100%
+Ended Job = job_local1297644096_0020
+MapReduce Jobs Launched: 
+Stage-Stage-1:  HDFS Read: 2274178874 HDFS Write: 270986894 SUCCESS
+Stage-Stage-2:  HDFS Read: 2274178874 HDFS Write: 270986894 SUCCESS
+Total MapReduce CPU Time Spent: 0 msec
+OK
+NG	114.0
+GR	134.0
+BR	148.0
+ES	206.0
+MX	246.0
+MA	248.0
+IT	255.0
+CL	262.0
+UY	265.0
+DO	318.0
+AR	332.0
+KR	337.0
+FI	341.0
+VN	353.0
+IL	355.0
+FR	365.0
+HK	386.0
+TH	411.0
+BO	416.0
+VE	432.0
+PT	438.0
+PA	443.0
+PK	445.0
+RO	459.0
+ZA	496.0
+CR	509.0
+GT	522.0
+JP	565.0
+EG	578.0
+HU	626.0
+PY	664.0
+BG	668.0
+UA	691.0
+PE	697.0
+PL	721.0
+CO	739.0
+TW	769.0
+SK	806.0
+SG	812.0
+AE	827.0
+NL	831.0
+IN	836.0
+BY	873.0
+HN	877.0
+TR	891.0
+CZ	908.0
+DK	933.0
+MY	944.0
+NO	953.0
+KZ	968.0
+EC	989.0
+BE	991.0
+DE	998.0
+LT	1007.0
+SV	1011.0
+EE	1026.0
+LU	1030.0
+PH	1096.0
+GLOBAL	1119.0
+SA	1141.0
+SE	1179.0
+AU	1211.0
+US	1224.0
+CH	1245.0
+ID	1290.0
+CA	1327.0
+NI	1348.0
+LV	1467.0
+AT	1566.0
+IE	1903.0
+NZ	2006.0
+IS	2053.0
+GB	2099.0
+Time taken: 2.456 seconds, Fetched: 73 row(s)
+Query ID = sejal_20261001075447_29042741-8acc-40a9-b242-60fdebeecdb6
+Total jobs = 1
+Launching Job 1 out of 1
+Number of reduce tasks determined at compile time: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Job running in-process (local Hadoop)
+2026-10-01 07:54:45,723 Stage-1 map = 0%,  reduce = 0%
+2026-10-01 07:54:46,728 Stage-1 map = 100%,  reduce = 100%
+Ended Job = job_local1911035904_0021
+MapReduce Jobs Launched: 
+Stage-Stage-1:  HDFS Read: 2289505638 HDFS Write: 270986894 SUCCESS
+Total MapReduce CPU Time Spent: 0 msec
+OK
+2024-02-04	FI	Tunnista tuntiin	Ege Zulu, BEHM	1	49
+2024-02-04	AR	HOLA PERDIDA	Luck Ra, KHEA	1	49
+2024-02-04	CL	Gata Only	FloyyMenor, Cris Mj	1	49
+2024-02-04	HU	HOLNAP MEGÁLLNAK AZ ÓRÁK	Beton.Hofi, Hundred Sins, laurie., Dom Beats	1	49
+2024-02-02	SE	ANARCHY - Radio Edit	Lavern, Bonfire, BABYNAPS, djbasra, SWEDISH WIFE MAFFIA	1	49
+2024-02-03	LU	Movimento	Kawe, Teto, JD On Tha Track	1	49
+2024-01-30	IS	Lied To	One Mojo, Sik Jagga	1	49
+2024-02-04	DK	Intet Nyt (feat. Gilli)	Merro8, Gilli	1	49
+2024-01-29	LU	Now We Are One	LUKA POETRY	1	49
+2024-01-31	BE	Can't You See	Musata, Rasoul Bahari, DJ Musata	1	49
+2024-02-05	LU	No Use (feat. 03 Greedo)	Shady Blu, 03 Greedo	1	49
+2024-02-02	DK	ANARCHY - Radio Edit	Lavern, Bonfire, BABYNAPS, djbasra, SWEDISH WIFE MAFFIA	1	49
+2024-02-07	IS	Cold city	Dide	1	49
+2024-02-04	GR	BBL	Oge, RACK, Kidd, Fy	1	49
+2024-02-04	NL	Tuesday	Jonna Fraser	1	49
+2024-02-04	UY	HOLA PERDIDA	Luck Ra, KHEA	1	49
+2024-02-04	IS	Hvert ertu að fara?	Háski, PATRi!K	1	49
+2024-02-03	ES	LA ÚLTIMA	Quevedo	1	49
+2024-02-07	AE	Cold city	Dide	1	49
+2024-02-05	AE	The Astronaut	JIN	1	49
+Time taken: -0.386 seconds, Fetched: 20 row(s)

@@ -1,0 +1,4 @@
+cluster,songs,danceability,energy,loudness,speechiness,acousticness,instrumentalness,liveness,valence,tempo
+0,5057,0.713,0.639,-7.294,0.309,0.256,0.005,0.185,0.531,122.267
+1,14654,0.699,0.739,-5.733,0.078,0.177,0.016,0.194,0.598,123.814
+2,5894,0.577,0.454,-9.93,0.066,0.524,0.071,0.157,0.374,118.962
